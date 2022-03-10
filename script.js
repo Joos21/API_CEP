@@ -10,7 +10,7 @@ const verificaCPF = async() => {
     const cep = document.getElementById('cep').value;
 
     if(cep != ""){
-        const url = `http://viacep.com.br/ws/${cep}/json/`;
+        const url = `https://viacep.com.br/ws/${cep}/json/`;
         
         const dados = await fetch(url);
         const end = await dados.json();
