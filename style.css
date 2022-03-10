@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(148, 236, 203);
+}
+
+#desc{
+    background-color: rgb(248, 255, 185);
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 10px, 10px, 10px, black;
+}
+
+#emCima{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    background-color: rgb(211, 163, 161);
+    height: 250px;
+    width: 200px;
+    margin-top: 10px;
+    justify-content: center;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#embaixo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

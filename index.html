@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CEP Brasil</title>
+</head>
+<body>
+    <div id="emCima">
+        <div id="desc">
+            <h1>Verificador de CEP</h1>
+
+            <p>Esse site foi feito em HTML, JS e CSS.</p>
+            <p>Apenas tem que escrever seu CEP no campo</p>
+            <p>CEP que as outras informações vão ser</p>
+            <p>completadas</p>
+
+            <h2>API ultilizada:</h2>
+            <p>https://viacep.com.br/</p>
+
+            <h2>Referência:</h2>
+            <a href="https://viacep.com.br/exemplo/javascript/">Site</a>
+
+        </div>
+    </div>
+
+<div id="embaixo">
+    <div id="formCEP"> 
+        <form method="GET" action="/CEP/script.js">
+            <label>CEP
+                <input id="cep" value="" type="text" onblur="verificaCPF()"></input>
+            </label>
+
+            <label>Rua:
+                <input id="rua"></input>
+            </label>
+
+            <label>Bairro:
+                <input id="bairro"></input>
+            </label>
+
+            <label>Cidade:
+                <input id="cidade"></input>
+            </label>
+
+            <label>Estado:
+                <input id="estado"></input>
+            </label>
+        </form>
+    </div>
+</div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
